@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Character Builder</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <h1>Character Builder</h1>
+  <form id="character-name">
+    <label for="input1">Character name:</label>
+    <input id="input1" type="text">
+    <label>
+    <button type="submit" class="btn">Go!</button>
+  </form>
+
+  <form id="radio-form">
+    <label>
+      <input type="radio" name="character-race" value="human" checked>
+      Human
+    </label>
+    <label>
+      <input type="radio" name="character-race" value="elf">
+      Elf
+    </label>
+    <label>
+      <input type="radio" name="character-race" value="orc">
+      Orc
+    </label>
+  </form>
+
+<form id="select-form">
+  <select id = "character-class">
+    <option>Fighter</option>
+    <option>Mage</option>
+    <option>Archer</option>
+    <option>Healer</option>
+  </select>
+
+</form>
+  <h2>Results</h2>
+  <p id="output"></p>
+</body>
+</html>
